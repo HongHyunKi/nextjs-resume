@@ -17,7 +17,7 @@ export const METADATA = {
     'TypeScript',
   ],
   author: 'Hyunki',
-  url: 'https://yourresume.vercel.app', // TODO 배포 후 수정
+  url: 'https://nextjs-resume-kohl.vercel.app', // TODO 도메인 구매
   ogImage: '/og-image.png',
 };
 
