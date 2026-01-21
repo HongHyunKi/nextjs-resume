@@ -106,13 +106,16 @@ export default function ResumePage() {
         {/** Tech Stack */}
         <section className="mb-12 border-b border-border pb-10">
           <h2 className="mb-4 text-2xl font-bold text-blue-600">TECH STACK</h2>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3 sm:gap-2">
             {TECH_STACK.map(
               (
                 stack: { category: string; skills: string[] },
                 index: number
               ) => (
-                <div key={index} className="flex items-baseline gap-2">
+                <div
+                  key={index}
+                  className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-2"
+                >
                   <span className="text-sm font-semibold text-foreground/80 whitespace-nowrap">
                     {stack.category}
                   </span>
