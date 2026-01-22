@@ -148,7 +148,7 @@ export const WORK_EXPERIENCES = [
         title: 'ERC20 토큰 스테이킹 서비스',
         period: '2025. 09. ~ 2025. 11.',
         description:
-          'MetaMask 연동 및 Avalanche C-Chain(EVM) 기반 ERC20 토큰 스테이킹 웹 서비스',
+          'MetaMask 연동 및 Avalanche C-Chain(EVM) 기반 ERC20 토큰 스테이킹 서비스',
         tasks: [
           'MetaMask 지갑 연동 로그인 및 토큰 입금 로직 구현',
           '스마트 컨트랙트 호출 및 트랜잭션 상태 관리 구현',
