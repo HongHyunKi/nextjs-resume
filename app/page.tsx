@@ -8,7 +8,14 @@ import {
   TRAINING,
   WORK_EXPERIENCES,
 } from '@/lib/resume-data';
-import { ExternalLink, Github, Mail, Rss, UserRoundPen } from 'lucide-react';
+import {
+  ExternalLink,
+  Github,
+  Mail,
+  MapPin,
+  Rss,
+  UserRoundPen,
+} from 'lucide-react';
 
 // Bullet Icon
 const BulletIcon = () => (
@@ -54,6 +61,12 @@ export default function ResumePage() {
                 <span className="text-blue-600">{PERSONAL_INFO.name}</span>
                 <span className="text-foreground/80">입니다.</span>
               </h1>
+              <div className="flex items-center gap-4 mt-3 text-sm text-muted-foreground/70">
+                <span className="flex items-center gap-1">
+                  <MapPin className="h-3.5 w-3.5" />
+                  {PERSONAL_INFO.location} · {PERSONAL_INFO.experience}
+                </span>
+              </div>
             </div>
 
             {/** Contact Info */}
