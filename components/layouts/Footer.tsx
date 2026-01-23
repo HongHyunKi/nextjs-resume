@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex flex-col items-center gap-3">
         <div className="flex items-center gap-3 text-xs text-muted-foreground">
           <a
-            href={CONTACT.github.href}
+            href={CONTACT.github.repoHref}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm underline"

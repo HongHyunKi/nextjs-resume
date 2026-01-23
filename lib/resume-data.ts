@@ -1,6 +1,6 @@
 /** 버전 정보 */
 export const VERSION = '1.0.0';
-export const LAST_UPDATED = '2026. 1. 22.';
+export const LAST_UPDATED = '2026. 1. 23.';
 
 /** SEO 및 메타데이터 정보 */
 export const METADATA = {
@@ -83,6 +83,7 @@ export const CONTACT = {
   },
   github: {
     href: 'https://github.com/HongHyunKi',
+    repoHref: 'https://github.com/HongHyunKi/nextjs-resume',
     label: '깃허브',
   },
   blog: {
