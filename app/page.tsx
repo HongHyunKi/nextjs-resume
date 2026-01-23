@@ -40,7 +40,7 @@ const ContactItem = ({
 
 export default function ResumePage() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-white">
       <div className="mx-auto max-w-4xl px-6 py-12 print:py-0">
         {/** Header */}
         <header className="mb-12 border-b border-border pb-8">
