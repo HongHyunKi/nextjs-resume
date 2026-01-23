@@ -10,6 +10,7 @@ export const METADATA = {
   keywords: [
     '프론트엔드',
     '백엔드',
+    '풀스택',
     '개발자',
     '이력서',
     'React',
@@ -17,7 +18,7 @@ export const METADATA = {
     'TypeScript',
   ],
   author: 'Hyunki',
-  url: 'https://nextjs-resume-kohl.vercel.app', // TODO 도메인 구매
+  url: 'https://nextjs-resume-kohl.vercel.app',
   ogImage: '/og-image.png',
 };
 
@@ -28,8 +29,8 @@ export const PERSONAL_INFO = {
   title: 'Front-end Engineer',
   location: 'Seoul, Korea',
   experience: '2년차',
-  description:
-    '빠르게 실행하고 끝까지 개선하는 프론트엔드 엔지니어입니다. 2년간 13개의 프로젝트를 경험하며 MVP 개발부터 레거시 코드 리팩터링, 운영 환경 안정화, 개발자 경험 개선까지 폭넓은 역할을 수행했습니다. 사용자와 팀 모두에게 오래 사랑받는 제품을 만드는 것을 목표로 합니다.',
+  description: `빠르게 실행하고 검증하는 프론트엔드 엔지니어입니다. 2년간 13개의 프로젝트를 경험하며 MVP 개발부터 레거시 코드 리팩터링, 운영 환경 안정화까지 폭넓은 역할을 수행했습니다. 단순 기능 구현을 넘어, 변경에 유연하고 사람이 이해하기 좋은 코드를 지향합니다.\n
+    소통과 팀워크의 가치를 중요하게 생각하며, 팀 내 프론트엔드 개발 가이드와 프로젝트별 트러블슈팅을 체계적으로 문서화하여 협업 과정의 리소스 낭비를 최소화합니다. 프론트엔드라는 틀에 갇히지 않고 비즈니스 요구사항을 해결하기 위해 최적의 기술을 유연하게 도입하고 적용합니다.`,
 };
 
 /** 기술 스택 */
@@ -42,11 +43,11 @@ export const TECH_STACK = [
       'React Native',
       'TypeScript',
       'Tailwind CSS',
-      'Webpack',
-      'MUI',
       'Emotion',
+      'MUI',
       'SWR',
       'Zustand',
+      'Webpack',
     ],
   },
   {
@@ -59,11 +60,18 @@ export const TECH_STACK = [
   },
   {
     category: 'Infra / Cloud',
-    skills: ['AWS (EC2, S3, RSD)'],
+    skills: ['AWS (EC2, S3, RDS)'],
   },
   {
     category: 'Tooling & Collaboration',
-    skills: ['Git', 'GitHub', 'Figma', 'Notion', 'IntelliJ IDEA'],
+    skills: [
+      'Git',
+      'GitHub',
+      'Figma',
+      'Notion',
+      'IntelliJ IDEA',
+      'Claude Code',
+    ],
   },
 ];
 
@@ -286,5 +294,13 @@ export const TRAINING = [
     period: '2022. 06. 21 - 2022. 12. 20',
     description:
       'AWS 클라우드 환경에서 React, Spring Boot, Node.js 활용한 RESTful API 기반 웹 서비스를 구축하며 전반적인 웹 개발 사이클을 경험했습니다.',
+  },
+];
+
+/** 어학 */
+export const LANGUAGES = [
+  {
+    title: 'JLPT N1 (일본어)',
+    period: '2019. 01.',
   },
 ];

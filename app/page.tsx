@@ -2,6 +2,7 @@ import {
   ACTIVITIES,
   CONTACT,
   EDUCATION,
+  LANGUAGES,
   PERSONAL_INFO,
   TECH_STACK,
   TRAINING,
@@ -300,6 +301,26 @@ export default function ResumePage() {
                 </div>
                 <span className="text-sm text-muted-foreground whitespace-nowrap">
                   {edu.period}
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/** Languages */}
+        <section className="mb-12">
+          <h2 className="mb-6 text-2xl font-bold text-blue-600">LANGUAGES</h2>
+          <div className="space-y-5">
+            {LANGUAGES.map((lang, index) => (
+              <div
+                key={index}
+                className="flex flex-col sm:flex-row sm:justify-between gap-2"
+              >
+                <h3 className="text-lg font-bold text-foreground">
+                  {lang.title}
+                </h3>
+                <span className="text-sm text-muted-foreground whitespace-nowrap">
+                  {lang.period}
                 </span>
               </div>
             ))}
