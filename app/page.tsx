@@ -51,7 +51,7 @@ export default function ResumePage() {
       <div className="mx-auto max-w-4xl px-6 py-12 print:py-0">
         {/** Header */}
         <header className="mb-12 border-b border-border pb-8">
-          <div className="flex flex-col md:flex-row gap-6 md:gap-24">
+          <div className="flex flex-col md:flex-row print:flex-row gap-6 md:gap-24 print:gap-24">
             {/** Greeting */}
             <div>
               <p className="text-base md:text-lg text-foreground/50 font-medium tracking-wide">

@@ -126,3 +126,37 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 인쇄 및 PDF 저장 스타일 */
+@media print {
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    @page {
+      size: A4;
+    }
+
+    .no-print,
+    nav,
+    debug-tools,
+    #__next-build-watcher,
+    footer,
+    div[class*="Bottom"],
+    div[class*="Footer"] {
+      display: none !important;
+    }
+
+    html, body {
+      background-color: white !important;
+      background-image: none !important;
+      height: auto !important;
+      min-height: 0 !important;
+    }
+
+    main, #__next {
+      background: none !important;
+      background-color: white !important;
+    }
+}
