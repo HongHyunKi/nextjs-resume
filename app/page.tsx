@@ -1,5 +1,6 @@
 import {
   ACTIVITIES,
+  ARTICLES,
   CONTACT,
   EDUCATION,
   LANGUAGES,
@@ -233,7 +234,7 @@ export default function ResumePage() {
 
         {/** Activities */}
         <section className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold text-blue-600">ACTIVITIES</h2>
+          <h2 className="mb-6 text-2xl font-bold text-blue-600">ACTIVITY</h2>
           <div className="space-y-5">
             {ACTIVITIES.map((activity, index) => (
               <div
@@ -322,7 +323,7 @@ export default function ResumePage() {
 
         {/** Languages */}
         <section className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold text-blue-600">LANGUAGES</h2>
+          <h2 className="mb-6 text-2xl font-bold text-blue-600">LANGUAGE</h2>
           <div className="space-y-5">
             {LANGUAGES.map((lang, index) => (
               <div
@@ -338,6 +339,29 @@ export default function ResumePage() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/** Article */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-blue-600">ARTICLE</h2>
+          <ul className="space-y-2.5">
+            {ARTICLES.map((article, index) => (
+              <li
+                key={index}
+                className="flex items-center gap-2.5 text-[15px] leading-relaxed text-foreground/80"
+              >
+                <div className="h-1.5 w-1.5 rounded-full bg-zinc-700 flex-shrink-0" />
+                <a
+                  href={article.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 hover:underline text-blue-600"
+                >
+                  ({article.date}) {article.title}
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
       </div>
     </main>

@@ -305,3 +305,12 @@ export const LANGUAGES = [
     period: '2019. 01.',
   },
 ];
+
+/** 아티클 */
+export const ARTICLES = [
+  {
+    title: 'AI 에이전트가 Vercel 엔지니어처럼 코드 리뷰를 해준다면?',
+    date: '2026. 01. 29.',
+    link: 'https://hyunki99.tistory.com/136',
+  },
+];
