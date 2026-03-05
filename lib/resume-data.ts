@@ -1,6 +1,6 @@
 /** 버전 정보 */
-export const VERSION = '1.0.0';
-export const LAST_UPDATED = '2026. 1. 23.';
+export const VERSION = '1.0.1';
+export const LAST_UPDATED = '2026. 3. 5.';
 
 /** SEO 및 메타데이터 정보 */
 export const METADATA = {
@@ -28,7 +28,7 @@ export const PERSONAL_INFO = {
   name: '홍현기',
   title: 'Front-end Engineer',
   location: 'Seoul, Korea',
-  experience: '2년차',
+  experience: '3년차',
   description: `빠르게 실행하고 검증하는 프론트엔드 엔지니어입니다. 2년간 13개의 프로젝트를 경험하며 MVP 개발부터 레거시 코드 리팩터링, 운영 환경 안정화까지 폭넓은 역할을 수행했습니다. 단순 기능 구현을 넘어, 변경에 유연하고 사람이 이해하기 좋은 코드를 지향합니다.\n
     소통과 팀워크의 가치를 중요하게 생각하며, 팀 내 프론트엔드 개발 가이드와 프로젝트별 트러블슈팅을 체계적으로 문서화하여 협업 과정의 리소스 낭비를 최소화합니다. 프론트엔드라는 틀에 갇히지 않고 비즈니스 요구사항을 해결하기 위해 최적의 기술을 유연하게 도입하고 적용합니다.`,
 };
